@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 梅花易数 Android 应用 - Version 1.0 (MVP)
+     Copyright © 2025 番创知库 (FanChuang Knowledge Base)
+     Package: cn.loveapple.divination
+     License: Proprietary - All rights reserved
+-->
+<resources>
+    <string name="app_name">梅花易数</string>
+    <string name="nav_home">ホーム</string>
+    <string name="nav_divination">占う</string>
+    <string name="nav_history">履歴</string>
+    <string name="nav_settings">設定</string>
+    
+    <!-- Home Screen -->
+    <string name="home_title">梅花易数</string>
+    <string name="home_subtitle">易経占いと解釈</string>
+    <string name="home_introduction_button">梅花易数 入門ガイド</string>
+    <string name="home_copyright">Copyright © 2025 番創知庫\nAll rights reserved</string>
+
+    <!-- Divination Screen -->
+    <string name="divination_title">占いの開始</string>
+    <string name="divination_select_method">占術の選択</string>
+    <string name="method_coin">コイン占い</string>
+    <string name="method_time">時間占い</string>
+    <string name="method_number">数字占い</string>
+    
+    <!-- Coin Divination -->
+    <string name="coin_input_title">コインを6回投げる</string>
+    <string name="coin_toss_button">投げる (%1$d/6)</string>
+    <string name="coin_reset_button">リセット</string>
+    <string name="coin_start_button">コイン占いを開始</string>
+    <string name="coin_result_yang">陽</string>
+    <string name="coin_result_yin">陰</string>
+    
+    <!-- Time Divination -->
+    <string name="time_input_title">年月日と時刻を入力</string>
+    <string name="time_year">年</string>
+    <string name="time_month">月</string>
+    <string name="time_day">日</string>
+    <string name="time_hour">時</string>
+    <string name="time_minute">分</string>
+    <string name="time_second">秒</string>
+    <string name="time_start_button">時間占いを開始</string>
+    
+    <!-- Number Divination -->
+    <string name="number_input_title">任意の数字を入力</string>
+    <string name="number_input_label">数字</string>
+    <string name="number_start_button">数字占いを開始</string>
+
+    <!-- Result Screen -->
+    <string name="result_title">占い結果</string>
+    <string name="result_back_button">戻る</string>
+    <string name="result_share_button">共有</string>
+    <string name="result_method">占術: %1$s</string>
+    <string name="result_gua_ci_title">卦辞 (Gua Ci)</string>
+    <string name="result_yao_ci_title">爻辞 (Yao Ci)</string>
+    <string name="result_yao_reading">読音: %1$s</string>
+    <string name="result_loading_error">読み込みエラー: %1$s</string>
+    <string name="result_not_found">卦象情報が見つかりません</string>
+    <string name="result_no_yao_ci">爻辞情報が見つかりません</string>
+
+    <!-- History Screen -->
+    <string name="history_title">履歴</string>
+    <string name="history_empty">占いの履歴がありません</string>
+    <string name="history_record_number">卦象番号: %1$d</string>
+    <string name="history_record_detail">占術: %1$s | 時刻: %2$s</string>
+    <string name="history_limit_message">無料ユーザーは最大 %1$d 件の履歴を保存できます。無制限の履歴と広告削除は設定から。</string>
+    <string name="history_favorite_content_description">お気に入り</string>
+    <string name="history_delete_content_description">削除</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">設定</string>
+    <string name="settings_category_iap">アプリ内購入</string>
+    <string name="settings_iap_title">無制限の履歴と広告を削除</string>
+    <string name="settings_iap_subtitle">開発をサポートし、完全な機能をお楽しみください</string>
+    <string name="settings_category_support">フィードバックとサポート</string>
+    <string name="settings_feedback_title">ユーザーフィードバック</string>
+    <string name="settings_feedback_subtitle">ご意見や問題報告を送信 (Google Form)</string>
+    <string name="settings_category_about">このアプリについて</string>
+    <string name="settings_version">梅花易数 v1.0.0</string>
+    <string name="settings_copyright">Copyright © 2025 番創知庫</string>
+
+    <!-- Introduction Screen -->
+    <string name="intro_title">梅花易数 入門ガイド</string>
+    <string name="intro_what_is_it_title">梅花易数とは？</string>
+    <string name="intro_what_is_it_body">梅花易数（ばいかえきすう）は、北宋時代の儒学者である邵雍（しょうよう）によって考案されたとされる占術です。時間や数字、身の回りの出来事など、あらゆる事象を数に置き換え、易の八卦（はっか）と六十四卦（ろくじゅうしけ）に対応させて吉凶を占います。</string>
+    <string name="intro_mechanism_title">基本的な仕組み</string>
+    <string name="intro_mechanism_body">この占術では、まず「本卦（ほんか）」と「之卦（しか）」という二つの卦を立てます。本卦は現在の状況を、之卦は未来の変化を示します。さらに、動爻（どうこう）と呼ばれる変化する爻を見つけ、その爻辞（こうじ）を重点的に解釈することで、より具体的なアドバイスを得ます。</string>
+    <string name="intro_methods_title">起卦方法（V1.0で利用可能）</string>
+    <string name="intro_methods_body">1. **硬貨起卦**: 6枚の硬貨を投げて、裏表の組み合わせから卦を導き出します。\n2. **時間起卦**: 占う時点の年月日時の数字を基に計算して卦を導き出します。\n3. **数字起卦**: 任意の数字を入力し、その数字を基に計算して卦を導き出します。</string>
+    <string name="intro_future_note">より深い解釈と応用は、今後のバージョンアップで提供予定です。</string>
+
+    <!-- General -->
+    <string name="general_error_title">エラー</string>
+    <string name="general_confirm">確認</string>
+</resources>
+</resources>
+
