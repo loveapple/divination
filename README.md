@@ -6,7 +6,7 @@
 **技术栈**: Kotlin, Jetpack Compose, MVVM + Repository, Room Database
 
 **Copyright © 2025 番创知库 (FanChuang Knowledge Base)**
-**License**: Proprietary - All rights reserved
+**License**: Proprietary - All rights reserved 
 
 ---
 
